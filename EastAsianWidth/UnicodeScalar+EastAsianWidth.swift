@@ -194,5 +194,22 @@ public extension UnicodeScalar {
         }
     }
 
-    
+    /// East Asian Narrow (Na)
+    /// All other characters that are always narrow and have explicit fullwidth or wide counterparts. These characters are implicitly narrow in East Asian typography and legacy character sets because they have explicit fullwidth or wide counterparts. All of ASCII is an example of East Asian Narrow characters.
+    /// See: http://unicode.org/reports/tr11/#ED5
+    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L217-L227 
+
+    public var isEastAsianNarrow: Bool {
+        switch self.value {
+        case 0x0020...0x007E: return true
+        case 0x00A2...0x00A3: return true
+        case 0x00A5...0x00A6: return true
+        case 0x00AC...0x00AC: return true
+        case 0x00AF...0x00AF: return true
+        case 0x27E6...0x27EB: return true
+        case 0x2985...0x2986: return true
+        default:
+            return false
+        }
+    }
 }
