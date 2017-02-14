@@ -173,4 +173,15 @@ public extension UnicodeScalar {
             return false
         }
     }
+
+    public var isEastAsianFullwidth: Bool {
+        switch self.value {
+        case 0x3000...0x3000: return true
+        case 0xFF01...0xFF60: return true
+        case 0xFFE0...0xFFE6: return true
+        default:
+            return false
+        }
+        
+    }
 }
