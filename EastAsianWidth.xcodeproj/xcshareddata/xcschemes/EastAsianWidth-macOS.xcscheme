@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E85A48591E53368900584D99"
-               BuildableName = "EastAsianWidth-macOS.framework"
+               BuildableName = "EastAsianWidth.framework"
                BlueprintName = "EastAsianWidth-macOS"
                ReferencedContainer = "container:EastAsianWidth.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E85A48591E53368900584D99"
-            BuildableName = "EastAsianWidth-macOS.framework"
+            BuildableName = "EastAsianWidth.framework"
             BlueprintName = "EastAsianWidth-macOS"
             ReferencedContainer = "container:EastAsianWidth.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E85A48591E53368900584D99"
-            BuildableName = "EastAsianWidth-macOS.framework"
+            BuildableName = "EastAsianWidth.framework"
             BlueprintName = "EastAsianWidth-macOS"
             ReferencedContainer = "container:EastAsianWidth.xcodeproj">
          </BuildableReference>
