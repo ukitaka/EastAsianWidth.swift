@@ -9,6 +9,12 @@
 import Foundation
 
 public extension UnicodeScalar {
+    
+    /// East Asian Ambiguous (A)
+    /// All characters that can be sometimes wide and sometimes narrow. 
+    /// Ambiguous characters require additional information not contained in the character code to further resolve their width.
+    /// See: http://unicode.org/reports/tr11/#ED6
+    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L38-L199
     public var isInEastAsianAmbiguous: Bool {
         switch self.value {
         case 0x00A1...0x00A1: return true
@@ -174,6 +180,10 @@ public extension UnicodeScalar {
         }
     }
 
+    /// East Asian Fullwidth (F)
+    /// All characters that are defined as Fullwidth in the Unicode Standard by having a compatibility decomposition of type <wide> to characters elsewhere in the Unicode Standard that are implicitly narrow but unmarked.
+    /// See: http://unicode.org/reports/tr11/#ED2
+    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L209-L215
     public var isEastAsianFullwidth: Bool {
         switch self.value {
         case 0x3000...0x3000: return true
@@ -182,6 +192,7 @@ public extension UnicodeScalar {
         default:
             return false
         }
-        
     }
+
+    
 }
