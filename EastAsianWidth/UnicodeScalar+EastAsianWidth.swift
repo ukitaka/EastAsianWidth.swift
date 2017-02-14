@@ -15,7 +15,7 @@ public extension UnicodeScalar {
     /// Ambiguous characters require additional information not contained in the character code to further resolve their width.
     /// See: http://unicode.org/reports/tr11/#ED6
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L38-L199
-    public var isInEastAsianAmbiguous: Bool {
+    public var isEastAsianAmbiguous: Bool {
         switch self.value {
         case 0x00A1...0x00A1: return true
         case 0x00A4...0x00A4: return true
