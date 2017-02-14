@@ -456,7 +456,7 @@ public extension UnicodeScalar {
             || isEastAsianNeutral
             || isEastAsianAmbiguous
     }
-    
+
     public var isHalfwidth: Bool {
         return isEastAsianHalfwidth
             || isEastAsianNarrow
