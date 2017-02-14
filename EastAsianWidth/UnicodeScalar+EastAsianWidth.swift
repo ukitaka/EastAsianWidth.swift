@@ -10,6 +10,8 @@ import Foundation
 
 public extension UnicodeScalar {
 
+    // MARK: -
+
     /// East Asian Ambiguous (A)
     /// All characters that can be sometimes wide and sometimes narrow.
     /// Ambiguous characters require additional information not contained in the character code to further resolve their width.
@@ -433,5 +435,21 @@ public extension UnicodeScalar {
         default:
             return false
         }
+    }
+
+    // MARK: -
+
+    public func isFullwidth(includeAmbiguousWidthCharacters: Bool = false) -> Bool {
+        return isEastAsianFullwidth
+            || isEastAsianWide
+            || (includeAmbiguousWidthCharacters ? isEastAsianAmbiguous : false)
+        
+    }
+
+    public func isHalfwidth(includeAmbiguousWidthCharacters: Bool = true) -> Bool {
+        return isEastAsianHalfwidth
+            || isEastAsianNarrow
+            || isEastAsianNeutral
+            || (includeAmbiguousWidthCharacters ? isEastAsianAmbiguous : false)
     }
 }
