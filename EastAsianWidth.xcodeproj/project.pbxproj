@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A483E1E53355C00584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E85A483A1E53355C00584D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85A48481E53360500584D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +58,7 @@
 			children = (
 				E85A48301E53347300584D99 /* EastAsianWidth.framework */,
 				E85A483E1E53355C00584D99 /* EastAsianWidth.framework */,
+				E85A484C1E53360500584D99 /* EastAsianWidth.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +88,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85A48491E53360500584D99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +138,24 @@
 			productReference = E85A483E1E53355C00584D99 /* EastAsianWidth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E85A484B1E53360500584D99 /* EastAsianWidth-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E85A48511E53360500584D99 /* Build configuration list for PBXNativeTarget "EastAsianWidth-tvOS" */;
+			buildPhases = (
+				E85A48471E53360500584D99 /* Sources */,
+				E85A48481E53360500584D99 /* Frameworks */,
+				E85A48491E53360500584D99 /* Headers */,
+				E85A484A1E53360500584D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EastAsianWidth-tvOS";
+			productName = "EastAsianWidth-tvOS";
+			productReference = E85A484C1E53360500584D99 /* EastAsianWidth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -134,6 +170,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					E85A483D1E53355C00584D99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E85A484B1E53360500584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -153,6 +193,7 @@
 			targets = (
 				E85A482F1E53347300584D99 /* EastAsianWidth-iOS */,
 				E85A483D1E53355C00584D99 /* EastAsianWidth-watchOS */,
+				E85A484B1E53360500584D99 /* EastAsianWidth-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +213,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E85A484A1E53360500584D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -183,6 +231,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E85A48391E53355C00584D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85A48471E53360500584D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,6 +432,50 @@
 			};
 			name = Release;
 		};
+		E85A48521E53360500584D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waft.EastAsianWidth;
+				PRODUCT_NAME = EastAsianWidth;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E85A48531E53360500584D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.waft.EastAsianWidth;
+				PRODUCT_NAME = EastAsianWidth;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,6 +501,14 @@
 			buildConfigurations = (
 				E85A48441E53355C00584D99 /* Debug */,
 				E85A48451E53355C00584D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E85A48511E53360500584D99 /* Build configuration list for PBXNativeTarget "EastAsianWidth-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E85A48521E53360500584D99 /* Debug */,
+				E85A48531E53360500584D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

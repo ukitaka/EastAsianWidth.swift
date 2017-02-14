@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E85A483D1E53355C00584D99"
-               BuildableName = "EastAsianWidth.framework"
-               BlueprintName = "EastAsianWidth-watchOS"
+               BlueprintIdentifier = "E85A484B1E53360500584D99"
+               BuildableName = "EastAsianWidth-tvOS.framework"
+               BlueprintName = "EastAsianWidth-tvOS"
                ReferencedContainer = "container:EastAsianWidth.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E85A483D1E53355C00584D99"
-            BuildableName = "EastAsianWidth.framework"
-            BlueprintName = "EastAsianWidth-watchOS"
+            BlueprintIdentifier = "E85A484B1E53360500584D99"
+            BuildableName = "EastAsianWidth-tvOS.framework"
+            BlueprintName = "EastAsianWidth-tvOS"
             ReferencedContainer = "container:EastAsianWidth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E85A483D1E53355C00584D99"
-            BuildableName = "EastAsianWidth.framework"
-            BlueprintName = "EastAsianWidth-watchOS"
+            BlueprintIdentifier = "E85A484B1E53360500584D99"
+            BuildableName = "EastAsianWidth-tvOS.framework"
+            BlueprintName = "EastAsianWidth-tvOS"
             ReferencedContainer = "container:EastAsianWidth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
