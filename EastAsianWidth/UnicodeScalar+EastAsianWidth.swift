@@ -14,7 +14,9 @@ public extension UnicodeScalar {
 
     /// East Asian Ambiguous (A)
     /// All characters that can be sometimes wide and sometimes narrow.
-    /// Ambiguous characters require additional information not contained in the character code to further resolve their width.
+    /// Ambiguous characters require additional information not contained 
+    /// in the character code to further resolve their width.
+    ///
     /// See: http://unicode.org/reports/tr11/#ED6
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L38-L199
     public var isEastAsianAmbiguous: Bool {
@@ -183,7 +185,11 @@ public extension UnicodeScalar {
     }
 
     /// East Asian Halfwidth (H)
-    /// All characters that are explicitly defined as Halfwidth in the Unicode Standard by having a compatibility decomposition of type <narrow> to characters elsewhere in the Unicode Standard that are implicitly wide but unmarked, plus U+20A9 ₩ WON SIGN.
+    /// All characters that are explicitly defined as Halfwidth in the 
+    /// Unicode Standard by having a compatibility decomposition of 
+    /// type <narrow> to characters elsewhere in the Unicode Standard
+    /// that are implicitly wide but unmarked, plus U+20A9 ₩ WON SIGN.
+    /// 
     /// See: http://unicode.org/reports/tr11/#ED3
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L209-L215
     public var isEastAsianHalfwidth: Bool {
@@ -197,7 +203,10 @@ public extension UnicodeScalar {
     }
 
     /// East Asian Fullwidth (F)
-    /// All characters that are defined as Fullwidth in the Unicode Standard by having a compatibility decomposition of type <wide> to characters elsewhere in the Unicode Standard that are implicitly narrow but unmarked.
+    /// All characters that are defined as Fullwidth in the Unicode Standard
+    /// by having a compatibility decomposition of type <wide> to characters 
+    /// elsewhere in the Unicode Standard that are implicitly narrow but unmarked.
+    ///
     /// See: http://unicode.org/reports/tr11/#ED2
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L209-L215
     public var isEastAsianFullwidth: Bool {
@@ -211,7 +220,11 @@ public extension UnicodeScalar {
     }
 
     /// East Asian Narrow (Na)
-    /// All other characters that are always narrow and have explicit fullwidth or wide counterparts. These characters are implicitly narrow in East Asian typography and legacy character sets because they have explicit fullwidth or wide counterparts. All of ASCII is an example of East Asian Narrow characters.
+    /// All other characters that are always narrow and have explicit fullwidth
+    /// or wide counterparts. These characters are implicitly narrow in East Asian 
+    /// typography and legacy character sets because they have explicit fullwidth or
+    /// wide counterparts. All of ASCII is an example of East Asian Narrow characters.
+    ///
     /// See: http://unicode.org/reports/tr11/#ED5
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L217-L227
 
@@ -230,7 +243,13 @@ public extension UnicodeScalar {
     }
 
     /// Neutral (Not East Asian):
-    /// All other characters. Neutral characters do not occur in legacy East Asian character sets. By extension, they also do not occur in East Asian typography. For example, there is no traditional Japanese way of typesetting Devanagari. Canonical equivalents of narrow and neutral characters may not themselves be narrow or neutral respectively. For example, U+00C5 Å LATIN CAPITAL LETTER A WITH RING ABOVE is Neutral, but its decomposition starts with a Narrow character.
+    /// All other characters. Neutral characters do not occur in legacy East Asian 
+    /// character sets. By extension, they also do not occur in East Asian typography. 
+    /// For example, there is no traditional Japanese way of typesetting Devanagari. 
+    /// Canonical equivalents of narrow and neutral characters may not themselves be
+    /// narrow or neutral respectively. For example, U+00C5 Å LATIN CAPITAL LETTER A 
+    /// WITH RING ABOVE is Neutral, but its decomposition starts with a Narrow character.
+    ///
     /// See: http://unicode.org/reports/tr11/#ED7
     ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L229-L400
 
@@ -410,7 +429,14 @@ public extension UnicodeScalar {
     }
 
     /// East Asian Wide (W)
-    /// All other characters that are always wide. These characters occur only in the context of East Asian typography where they are wide characters (such as the Unified Han Ideographs or Squared Katakana Symbols). This category includes characters that have explicit halfwidth counterparts, along with characters that have the UTR51 property Emoji_Presentation, with the exception of the range U+1F1E6 REGIONAL INDICATOR SYMBOL LETTER A through U+1F1FF REGIONAL INDICATOR SYMBOL LETTER Z.
+    /// All other characters that are always wide. These characters occur only in 
+    /// the context of East Asian typography where they are wide characters (such 
+    /// as the Unified Han Ideographs or Squared Katakana Symbols). This category 
+    /// includes characters that have explicit halfwidth counterparts, along with 
+    /// characters that have the UTR51 property Emoji_Presentation, with the exception 
+    /// of the range U+1F1E6 REGIONAL INDICATOR SYMBOL LETTER A through U+1F1FF 
+    /// REGIONAL INDICATOR SYMBOL LETTER Z.
+    ///
     /// See: http://unicode.org/reports/tr11/#ED4
     /// https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L402-L422
     public var isEastAsianWide: Bool {

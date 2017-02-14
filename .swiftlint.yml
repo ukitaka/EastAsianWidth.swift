@@ -1,6 +1,6 @@
 included:
     - EastAsianWidth/UnicodeScalar+EastAsianWidth.swift
 
-disabled_rules:
-  - line_length
-  - file_length
+line_length: 120
+file_length: 500
+
