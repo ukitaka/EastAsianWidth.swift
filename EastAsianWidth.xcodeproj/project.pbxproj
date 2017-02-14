@@ -11,10 +11,6 @@
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48621E53369B00584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E85A48651E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
-		E85A48661E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
-		E85A48671E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
-		E85A48681E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
 		E85A486A1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
@@ -28,7 +24,6 @@
 		E85A483E1E53355C00584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EastAsianWidth.swift"; sourceTree = "<group>"; };
 		E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +91,6 @@
 		E85A48631E5336EA00584D99 /* EastAsianWidth */ = {
 			isa = PBXGroup;
 			children = (
-				E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */,
 				E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */,
 			);
 			path = EastAsianWidth;
@@ -300,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A486A1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
-				E85A48651E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
-				E85A48661E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
-				E85A48671E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
-				E85A48681E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
