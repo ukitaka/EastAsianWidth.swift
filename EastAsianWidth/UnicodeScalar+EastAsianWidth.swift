@@ -180,6 +180,20 @@ public extension UnicodeScalar {
         }
     }
 
+    /// East Asian Halfwidth (H)
+    /// All characters that are explicitly defined as Halfwidth in the Unicode Standard by having a compatibility decomposition of type <narrow> to characters elsewhere in the Unicode Standard that are implicitly wide but unmarked, plus U+20A9 ₩ WON SIGN.
+    /// See: http://unicode.org/reports/tr11/#ED3
+    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L209-L215
+    public var isEastAsianHalfwidth: Bool {
+        switch self.value {
+        case 0x20A9...0x20A9: return true
+        case 0xFF61...0xFFDC: return true
+        case 0xFFE8...0xFFEE: return true
+        default:
+            return false
+        }
+    }
+
     /// East Asian Fullwidth (F)
     /// All characters that are defined as Fullwidth in the Unicode Standard by having a compatibility decomposition of type <wide> to characters elsewhere in the Unicode Standard that are implicitly narrow but unmarked.
     /// See: http://unicode.org/reports/tr11/#ED2
