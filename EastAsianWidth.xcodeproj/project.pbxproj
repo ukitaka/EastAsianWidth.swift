@@ -11,6 +11,10 @@
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48621E53369B00584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85A48651E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
+		E85A48661E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
+		E85A48671E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
+		E85A48681E53370C00584D99 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,7 @@
 		E85A483E1E53355C00584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EastAsianWidth.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		E85A48131E53333900584D99 = {
 			isa = PBXGroup;
 			children = (
+				E85A48631E5336EA00584D99 /* EastAsianWidth */,
 				E85A48281E5333F000584D99 /* Resources */,
 				E85A481E1E53333900584D99 /* Products */,
 			);
@@ -80,6 +86,14 @@
 				E85A482A1E53340800584D99 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E85A48631E5336EA00584D99 /* EastAsianWidth */ = {
+			isa = PBXGroup;
+			children = (
+				E85A48641E53370C00584D99 /* String+EastAsianWidth.swift */,
+			);
+			path = EastAsianWidth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,18 +217,22 @@
 				TargetAttributes = {
 					E85A482F1E53347300584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E85A483D1E53355C00584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E85A484B1E53360500584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E85A48591E53368900584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -275,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A48651E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A48661E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A48671E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A48681E53370C00584D99 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +426,7 @@
 		E85A48361E53347300584D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -417,6 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.waft.EastAsianWidth;
 				PRODUCT_NAME = EastAsianWidth;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,6 +448,7 @@
 		E85A48371E53347300584D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -445,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -458,6 +484,7 @@
 				PRODUCT_NAME = EastAsianWidth;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -468,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -490,6 +518,7 @@
 		E85A48521E53360500584D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -503,6 +532,7 @@
 				PRODUCT_NAME = EastAsianWidth;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -512,6 +542,7 @@
 		E85A48531E53360500584D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -534,6 +565,7 @@
 		E85A48601E53368900584D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -550,6 +582,7 @@
 				PRODUCT_NAME = EastAsianWidth;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -557,6 +590,7 @@
 		E85A48611E53368900584D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
