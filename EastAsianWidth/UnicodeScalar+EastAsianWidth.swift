@@ -439,17 +439,27 @@ public extension UnicodeScalar {
 
     // MARK: -
 
-    public func isFullwidth(includeAmbiguousWidthCharacters: Bool = false) -> Bool {
+    public var isFullwidthOrAmbiguous: Bool {
         return isEastAsianFullwidth
             || isEastAsianWide
-            || (includeAmbiguousWidthCharacters ? isEastAsianAmbiguous : false)
-        
+            || isEastAsianAmbiguous
     }
 
-    public func isHalfwidth(includeAmbiguousWidthCharacters: Bool = true) -> Bool {
+    public var isFullwidth: Bool {
+        return isEastAsianFullwidth
+            || isEastAsianWide
+    }
+
+    public var isHalfwidthOrAmbiguous: Bool {
         return isEastAsianHalfwidth
             || isEastAsianNarrow
             || isEastAsianNeutral
-            || (includeAmbiguousWidthCharacters ? isEastAsianAmbiguous : false)
+            || isEastAsianAmbiguous
+    }
+    
+    public var isHalfwidth: Bool {
+        return isEastAsianHalfwidth
+            || isEastAsianNarrow
+            || isEastAsianNeutral
     }
 }
