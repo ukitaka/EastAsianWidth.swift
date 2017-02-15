@@ -6,8 +6,6 @@
 //  Copyright © 2017年 waft. All rights reserved.
 //
 
-import Foundation
-
 import XCTest
 import EastAsianWidth
 
