@@ -11,6 +11,7 @@
 		260BD8C41E5406D80077AC55 /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
 		260BD8C61E540AF80077AC55 /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
 		260BD8C81E54164E0077AC55 /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
+		260BD8CA1E5416CD0077AC55 /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +39,7 @@
 		260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeCharacters.swift; sourceTree = "<group>"; };
 		260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianNeutralTests.swift; sourceTree = "<group>"; };
 		260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianHalfwidthTests.swift; sourceTree = "<group>"; };
+		260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianFullwidthTests.swift; sourceTree = "<group>"; };
 		E85A48291E53340800584D99 /* EastAsianWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EastAsianWidth.h; sourceTree = "<group>"; };
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */,
 				260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */,
 				260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */,
+				260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				260BD8C41E5406D80077AC55 /* EdgeCharacters.swift in Sources */,
 				260BD8C61E540AF80077AC55 /* EastAsianNeutralTests.swift in Sources */,
 				260BD8C21E53FB780077AC55 /* EastAsianAmbiguousTests.swift in Sources */,
+				260BD8CA1E5416CD0077AC55 /* EastAsianFullwidthTests.swift in Sources */,
 				E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */,
 				260BD8C81E54164E0077AC55 /* EastAsianHalfwidthTests.swift in Sources */,
 			);
