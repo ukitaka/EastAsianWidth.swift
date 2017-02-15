@@ -9,7 +9,7 @@
 import Foundation
 
 private func c(_ lower: UnicodeScalar, _ upper: UnicodeScalar) -> CharacterSet {
-    return CharacterSet(charactersIn: Range(uncheckedBounds: (lower: lower, upper: upper)))
+    return CharacterSet(charactersIn: ClosedRange(uncheckedBounds: (lower: lower, upper: upper)))
 }
 
 /// East Asian Ambiguous (A)
