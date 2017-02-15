@@ -1,6 +1,10 @@
 included:
-    - EastAsianWidth/UnicodeScalar+EastAsianWidth.swift
+    - EastAsianWidth/
 
 line_length: 120
 file_length: 500
 
+variable_name:
+  excluded:
+    - EastAsianAmbiguousCharacterSet
+    - EastAsianNeutralCharacterSet
