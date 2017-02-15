@@ -15,7 +15,6 @@ class EastAsianNarrowTests: XCTestCase {
     }
 
     func testNonEastAsianNarrowCharacters() {
-        AssertEastAsianNarrow("Hello")
         AssertNotEastAsianNarrow("こんにちわ")
         AssertNotEastAsianNarrow("안녕하세요")
         AssertNotEastAsianNarrow("你好")
