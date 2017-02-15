@@ -9,5 +9,6 @@ variable_name:
     - EastAsianAmbiguousCharacterSet
     - EastAsianHalfwidthCharacterSet
     - EastAsianFullwidthCharacterSet
-    - EastAsianWideCharacterSet
+    - EastAsianNarrowCharacterSet
     - EastAsianNeutralCharacterSet
+    - EastAsianWideCharacterSet
