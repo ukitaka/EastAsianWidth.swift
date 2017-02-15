@@ -7,4 +7,5 @@ file_length: 500
 variable_name:
   excluded:
     - EastAsianAmbiguousCharacterSet
+    - EastAsianHalfwidthCharacterSet
     - EastAsianNeutralCharacterSet

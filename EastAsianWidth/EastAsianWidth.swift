@@ -93,6 +93,10 @@ let EastAsianAmbiguousCharacterSet = CharacterSet()
         .union(c("\u{FFFD}", "\u{FFFD}")) .union(c("\u{E0100}", "\u{E01EF}"))
         .union(c("\u{F0000}", "\u{FFFFD}")) .union(c("\u{100000}", "\u{10FFFD}"))
 
+let EastAsianHalfwidthCharacterSet = CharacterSet()
+        .union(c("\u{20A9}", "\u{20A9}")) .union(c("\u{FF61}", "\u{FFDC}"))
+        .union(c("\u{FFE8}", "\u{FFEE}"))
+
 let EastAsianNeutralCharacterSet = CharacterSet()
     .union(c("\u{0000}", "\u{001F}")) .union(c("\u{007F}", "\u{00A0}"))
     .union(c("\u{00A9}", "\u{00A9}")) .union(c("\u{00AB}", "\u{00AB}"))
