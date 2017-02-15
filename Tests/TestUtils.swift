@@ -116,3 +116,71 @@ func AssertNotEastAsianWide(_ string: String) {
 func AssertNotEastAsianWide(_ unicodeScalar: UnicodeScalar) {
     XCTAssertFalse(unicodeScalar.isEastAsianWide)
 }
+
+// MARK: - Fullwidth
+
+func AssertFullwidth(_ string: String) {
+    string.unicodeScalars.forEach(AssertFullwidth)
+}
+
+func AssertFullwidth(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isFullwidth)
+}
+
+func AssertNotFullwidth(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotFullwidth)
+}
+
+func AssertNotFullwidth(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertFalse(unicodeScalar.isFullwidth)
+}
+
+func AssertFullwidthOrAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertFullwidthOrAmbiguous)
+}
+
+func AssertFullwidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isFullwidthOrAmbiguous)
+}
+
+func AssertNotFullwidthOrAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotFullwidthOrAmbiguous)
+}
+
+func AssertNotFullwidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertFalse(unicodeScalar.isFullwidthOrAmbiguous)
+}
+
+// MARK: - Halfwidth
+
+func AssertHalfwidth(_ string: String) {
+    string.unicodeScalars.forEach(AssertHalfwidth)
+}
+
+func AssertHalfwidth(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isHalfwidth)
+}
+
+func AssertNotHalfWidth(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotHalfWidth)
+}
+
+func AssertNotHalfWidth(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertFalse(unicodeScalar.isHalfwidth)
+}
+
+func AssertHalfwidthOrAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertHalfwidthOrAmbiguous)
+}
+
+func AssertHalfwidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isHalfwidthOrAmbiguous)
+}
+
+func AssertNotHalfWidthOrAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotHalfWidthOrAmbiguous)
+}
+
+func AssertNotHalfWidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertFalse(unicodeScalar.isHalfwidthOrAmbiguous)
+}
