@@ -97,6 +97,10 @@ let EastAsianHalfwidthCharacterSet = CharacterSet()
         .union(c("\u{20A9}", "\u{20A9}")) .union(c("\u{FF61}", "\u{FFDC}"))
         .union(c("\u{FFE8}", "\u{FFEE}"))
 
+let EastAsianFullwidthCharacterSet = CharacterSet()
+        .union(c("\u{3000}", "\u{3000}")) .union(c("\u{FF01}", "\u{FF60}"))
+        .union(c("\u{FFE0}", "\u{FFE6}"))
+
 let EastAsianNeutralCharacterSet = CharacterSet()
     .union(c("\u{0000}", "\u{001F}")) .union(c("\u{007F}", "\u{00A0}"))
     .union(c("\u{00A9}", "\u{00A9}")) .union(c("\u{00AB}", "\u{00AB}"))

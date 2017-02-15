@@ -8,4 +8,5 @@ variable_name:
   excluded:
     - EastAsianAmbiguousCharacterSet
     - EastAsianHalfwidthCharacterSet
+    - EastAsianFullwidthCharacterSet
     - EastAsianNeutralCharacterSet
