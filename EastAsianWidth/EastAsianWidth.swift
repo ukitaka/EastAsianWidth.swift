@@ -101,6 +101,12 @@ let EastAsianFullwidthCharacterSet = CharacterSet()
         .union(c("\u{3000}", "\u{3000}")) .union(c("\u{FF01}", "\u{FF60}"))
         .union(c("\u{FFE0}", "\u{FFE6}"))
 
+let EastAsianWideCharacterSet = CharacterSet()
+    .union(c("\u{0020}", "\u{007E}")) .union(c("\u{00A2}", "\u{00A3}"))
+    .union(c("\u{00A5}", "\u{00A6}")) .union(c("\u{00AC}", "\u{00AC}"))
+    .union(c("\u{00AF}", "\u{00AF}")) .union(c("\u{27E6}", "\u{27EB}"))
+    .union(c("\u{2985}", "\u{2986}"))
+
 let EastAsianNeutralCharacterSet = CharacterSet()
     .union(c("\u{0000}", "\u{001F}")) .union(c("\u{007F}", "\u{00A0}"))
     .union(c("\u{00A9}", "\u{00A9}")) .union(c("\u{00AB}", "\u{00AB}"))
@@ -182,9 +188,9 @@ let EastAsianNeutralCharacterSet = CharacterSet()
     .union(c("\u{27F0}", "\u{2984}")) .union(c("\u{2987}", "\u{2E1D}"))
     .union(c("\u{303F}", "\u{303F}")) .union(c("\u{4DC0}", "\u{4DFF}"))
     .union(c("\u{A700}", "\u{A877}"))
-//  .union(c("\u{D800}", "\u{DB7F}")) // Surrogate pair. `UnicodeScalar` does not support these values.
-//  .union(c("\u{DB80}", "\u{DBFF}")) // Surrogate pair. `UnicodeScalar` does not support these values.
-//  .union(c("\u{DC00}", "\u{DFFF}")) // Surrogate pair. `UnicodeScalar` does not support these values.
+    //  .union(c("\u{D800}", "\u{DB7F}")) // Surrogate pair. `UnicodeScalar` does not support these values.
+    //  .union(c("\u{DB80}", "\u{DBFF}")) // Surrogate pair. `UnicodeScalar` does not support these values.
+    //  .union(c("\u{DC00}", "\u{DFFF}")) // Surrogate pair. `UnicodeScalar` does not support these values.
     .union(c("\u{FB00}", "\u{FDFD}")) .union(c("\u{FE20}", "\u{FE23}"))
     .union(c("\u{FE70}", "\u{FEFF}")) .union(c("\u{FFF9}", "\u{FFFC}"))
     .union(c("\u{10000}", "\u{1D7FF}")) .union(c("\u{E0001}", "\u{E007F}"))
