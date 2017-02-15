@@ -161,11 +161,11 @@ func AssertHalfwidth(_ unicodeScalar: UnicodeScalar) {
     XCTAssertTrue(unicodeScalar.isHalfwidth)
 }
 
-func AssertNotHalfWidth(_ string: String) {
-    string.unicodeScalars.forEach(AssertNotHalfWidth)
+func AssertNotHalfwidth(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotHalfwidth)
 }
 
-func AssertNotHalfWidth(_ unicodeScalar: UnicodeScalar) {
+func AssertNotHalfwidth(_ unicodeScalar: UnicodeScalar) {
     XCTAssertFalse(unicodeScalar.isHalfwidth)
 }
 
@@ -177,10 +177,10 @@ func AssertHalfwidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
     XCTAssertTrue(unicodeScalar.isHalfwidthOrAmbiguous)
 }
 
-func AssertNotHalfWidthOrAmbiguous(_ string: String) {
-    string.unicodeScalars.forEach(AssertNotHalfWidthOrAmbiguous)
+func AssertNotHalfwidthOrAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotHalfwidthOrAmbiguous)
 }
 
-func AssertNotHalfWidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
+func AssertNotHalfwidthOrAmbiguous(_ unicodeScalar: UnicodeScalar) {
     XCTAssertFalse(unicodeScalar.isHalfwidthOrAmbiguous)
 }
