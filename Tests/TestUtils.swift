@@ -26,3 +26,21 @@ func AssertNotEastAsianAmbiguous(_ string: String) {
 func AssertNotEastAsianAmbiguous(_ unicodeScalar: UnicodeScalar) {
     XCTAssertFalse(unicodeScalar.isEastAsianAmbiguous)
 }
+
+// MARK: - EastAsianNeutral
+
+func AssertEastAsianNeutral(_ string: String) {
+    string.unicodeScalars.forEach(AssertEastAsianNeutral)
+}
+
+func AssertEastAsianNeutral(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isEastAsianNeutral)
+}
+
+func AssertNotEastAsianNeutral(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotEastAsianNeutral)
+}
+
+func AssertNotEastAsianNeutral(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertFalse(unicodeScalar.isEastAsianNeutral)
+}

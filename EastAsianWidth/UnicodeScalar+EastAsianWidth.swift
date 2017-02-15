@@ -414,9 +414,9 @@ public extension UnicodeScalar {
         case 0x303F...0x303F: return true
         case 0x4DC0...0x4DFF: return true
         case 0xA700...0xA877: return true
-        case 0xD800...0xDB7F: return true
-        case 0xDB80...0xDBFF: return true
-        case 0xDC00...0xDFFF: return true
+        case 0xD800...0xDB7F: return true // Surrogate pair. `UnicodeScalar` does not support these values.
+        case 0xDB80...0xDBFF: return true // Surrogate pair. `UnicodeScalar` does not support these values.
+        case 0xDC00...0xDFFF: return true // Surrogate pair. `UnicodeScalar` does not support these values.
         case 0xFB00...0xFDFD: return true
         case 0xFE20...0xFE23: return true
         case 0xFE70...0xFEFF: return true
