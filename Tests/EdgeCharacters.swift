@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: - East Asian Ambiguous
+
 let EastAsianAmbiguousEdgeRawScalarValue: [UInt32] = [
     0x00A1, 0x00A4, 0x00A7, 0x00A8, 0x00AA, 0x00AD, 0x00AE, 0x00B0, 0x00B4,
     0x00B6, 0x00BA, 0x00BC, 0x00BF, 0x00C6, 0x00D0, 0x00D7, 0x00D8, 0x00DE,
@@ -41,6 +43,8 @@ let EastAsianAmbiguousEdgeRawScalarValue: [UInt32] = [
 
 let EastAsianAmbiguousEdgeUnicodeScalar: [UnicodeScalar] =
     EastAsianAmbiguousEdgeRawScalarValue.flatMap(UnicodeScalar.init)
+
+// MARK: - East Asian Neutral
 
 let EastAsianNeutralEdgeRawScalarValue: [UInt32] = [
     0x0000, 0x001F, 0x007F, 0x00A0, 0x00A9, 0x00AB, 0x00B5, 0x00BB, 0x00C0,
@@ -80,3 +84,48 @@ let EastAsianNeutralEdgeRawScalarValue: [UInt32] = [
 
 let EastAsianNeutralEdgeUnicodeScalar: [UnicodeScalar] =
     EastAsianNeutralEdgeRawScalarValue.flatMap(UnicodeScalar.init)
+
+// MARK: - East Asian Halfwidth
+
+let EastAsianHalfwidthEdgeRawScalarValue: [UInt32] = [
+    0x20A9, 0xFF61, 0xFFDC, 0xFFE8, 0xFFEE
+]
+
+let EastAsianHalfwidthEdgeUnicodeScalar: [UnicodeScalar] =
+    EastAsianHalfwidthEdgeRawScalarValue.flatMap(UnicodeScalar.init)
+
+
+// MARK: - East Asian Fullwidth
+
+let EastAsianFullwidthEdgeRawScalarValue: [UInt32] = [
+    0x3000, 0xFF01, 0xFF60, 0xFFE0, 0xFFE6
+]
+
+let EastAsianFullwidthEdgeUnicodeScalar: [UnicodeScalar] =
+    EastAsianFullwidthEdgeRawScalarValue.flatMap(UnicodeScalar.init)
+
+// MARK: - East Asian Narrow
+
+let EastAsianNarrowEdgeRawScalarValue: [UInt32] = [
+    0x0020, 0x007E, 0x00A2, 0x00A3, 0x00A5,
+    0x00A6, 0x00AC, 0x00AF, 0x27E6, 0x27EB,
+    0x2985, 0x2986,
+]
+
+let EastAsianNarrowEdgeUnicodeScalar: [UnicodeScalar] =
+    EastAsianNarrowEdgeRawScalarValue.flatMap(UnicodeScalar.init)
+
+// MARK: - East Asian Wide
+
+let EastAsianWideEdgeRawScalarValue: [UInt32] = [
+    0x1100, 0x115F, 0x2329, 0x232A, 0x2E80,
+    0x2FFB, 0x3001, 0x303E, 0x3041, 0x33FF,
+    0x3400, 0x4DB5, 0x4E00, 0x9FBB, 0xA000,
+    0xA4C6, 0xAC00, 0xD7A3, 0xF900, 0xFAD9,
+    0xFE10, 0xFE19, 0xFE30, 0xFE6B,
+    0x20000, 0x2A6D6, 0x2A6D7, 0x2F7FF, 0x2F800,
+    0x2FA1D, 0x2FA1E, 0x2FFFD, 0x30000, 0x3FFFD
+]
+
+let EastAsianWideEdgeUnicodeScalar: [UnicodeScalar] =
+    EastAsianWideEdgeRawScalarValue.flatMap(UnicodeScalar.init)
