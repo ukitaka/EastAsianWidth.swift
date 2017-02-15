@@ -26,6 +26,10 @@
 		E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A487B1E534FBC00584D99 /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
 		E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
+		E8C526771E546E3D000937E4 /* EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526761E546E3D000937E4 /* EastAsianWidth.swift */; };
+		E8C526781E546E3D000937E4 /* EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526761E546E3D000937E4 /* EastAsianWidth.swift */; };
+		E8C526791E546E3D000937E4 /* EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526761E546E3D000937E4 /* EastAsianWidth.swift */; };
+		E8C5267A1E546E3D000937E4 /* EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526761E546E3D000937E4 /* EastAsianWidth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,7 @@
 		E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
 		E85A48761E534FBC00584D99 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C526741E5354A7000937E4 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
+		E8C526761E546E3D000937E4 /* EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianWidth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */,
+				E8C526761E546E3D000937E4 /* EastAsianWidth.swift */,
 			);
 			path = EastAsianWidth;
 			sourceTree = "<group>";
@@ -446,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C526771E546E3D000937E4 /* EastAsianWidth.swift in Sources */,
 				E85A486A1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C526781E546E3D000937E4 /* EastAsianWidth.swift in Sources */,
 				E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C526791E546E3D000937E4 /* EastAsianWidth.swift in Sources */,
 				E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C5267A1E546E3D000937E4 /* EastAsianWidth.swift in Sources */,
 				E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
