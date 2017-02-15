@@ -9,15 +9,20 @@
 import XCTest
 import EastAsianWidth
 
-func testHiragana(_ unicodeScalar: UnicodeScalar) {
+// MARK: - EastAsianAmbiguous
+
+func AssertEastAsianAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertEastAsianAmbiguous)
+}
+
+func AssertEastAsianAmbiguous(_ unicodeScalar: UnicodeScalar) {
+    XCTAssertTrue(unicodeScalar.isEastAsianAmbiguous)
+}
+
+func AssertNotEastAsianAmbiguous(_ string: String) {
+    string.unicodeScalars.forEach(AssertNotEastAsianAmbiguous)
+}
+
+func AssertNotEastAsianAmbiguous(_ unicodeScalar: UnicodeScalar) {
     XCTAssertFalse(unicodeScalar.isEastAsianAmbiguous)
-    XCTAssertFalse(unicodeScalar.isEastAsianHalfwidth)
-    XCTAssertFalse(unicodeScalar.isEastAsianFullwidth)
-    XCTAssertFalse(unicodeScalar.isEastAsianNarrow)
-    XCTAssertFalse(unicodeScalar.isEastAsianNeutral)
-    XCTAssertTrue(unicodeScalar.isEastAsianWide)
-    XCTAssertTrue(unicodeScalar.isFullwidth)
-    XCTAssertTrue(unicodeScalar.isFullwidthOrAmbiguous)
-    XCTAssertFalse(unicodeScalar.isHalfwidth)
-    XCTAssertFalse(unicodeScalar.isHalfwidthOrAmbiguous)
 }

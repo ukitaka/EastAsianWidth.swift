@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260BD8C21E53FB780077AC55 /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +16,6 @@
 		E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
-		E85A48791E534FBC00584D99 /* EastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48781E534FBC00584D99 /* EastAsianWidthTests.swift */; };
 		E85A487B1E534FBC00584D99 /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
 		E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianAmbiguousTests.swift; sourceTree = "<group>"; };
 		E85A48291E53340800584D99 /* EastAsianWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EastAsianWidth.h; sourceTree = "<group>"; };
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +40,6 @@
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
 		E85A48761E534FBC00584D99 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E85A48781E534FBC00584D99 /* EastAsianWidthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidthTests.swift; sourceTree = "<group>"; };
 		E8C526741E5354A7000937E4 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +125,8 @@
 		E85A48771E534FBC00584D99 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E85A48781E534FBC00584D99 /* EastAsianWidthTests.swift */,
 				E8C526741E5354A7000937E4 /* TestUtils.swift */,
+				260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -454,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85A48791E534FBC00584D99 /* EastAsianWidthTests.swift in Sources */,
+				260BD8C21E53FB780077AC55 /* EastAsianAmbiguousTests.swift in Sources */,
 				E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
