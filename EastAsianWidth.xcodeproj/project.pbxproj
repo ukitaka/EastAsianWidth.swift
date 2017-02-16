@@ -48,6 +48,10 @@
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48621E53369B00584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E86A84B71E55E3BE00DDA293 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */; };
+		E86A84B81E55E3C000DDA293 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */; };
+		E86A84B91E55E3C100DDA293 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */; };
+		E86A84BA1E55E3C100DDA293 /* String+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +105,7 @@
 		E85A483E1E53355C00584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EastAsianWidth.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */,
+				E86A84B61E55E3BE00DDA293 /* String+EastAsianWidth.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -653,6 +659,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D2E8FE1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				E86A84B71E55E3BE00DDA293 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +668,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D2E8FF1E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				E86A84BA1E55E3C100DDA293 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +677,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D2E9001E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				E86A84B91E55E3C100DDA293 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +686,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D2E9011E55B1A8005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				E86A84B81E55E3C000DDA293 /* String+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
