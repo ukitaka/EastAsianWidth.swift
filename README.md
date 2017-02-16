@@ -5,6 +5,18 @@
 Extension of `UnicodeScalar` to deal with East Asian Width.
 The most generally use case is to classify unicode scalar value as **Fullwidth** (全角) or **Halfwidth** (半角).
 
+```swift
+// Halfwidth Katakana (半角カナ)
+"ｱｲｳｴｵ".unicodeScalars.forEach { (u: UnicodeScalar) in
+    u.isEastAsianHalfwidth // true
+}
+
+// Fullwidth Katakana (全角カナ)
+"アイウエオ".unicodeScalars.forEach { (u: UnicodeScalar) in
+    u.isEastAsianFullwidth // true
+}
+```
+
 East Asian Width is specified as [Unicode® Standard Annex #11](http://www.unicode.org/unicode/reports/tr11/).
 
 ## Requirements
