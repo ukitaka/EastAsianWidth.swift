@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "26D2E8DD1E55ADD9005D1C5D"
+               BuildableName = "EastAsianWidth-macOSTests.xctest"
+               BlueprintName = "EastAsianWidth-macOSTests"
+               ReferencedContainer = "container:EastAsianWidth.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E85A48591E53368900584D99"
+            BuildableName = "EastAsianWidth.framework"
+            BlueprintName = "EastAsianWidth-macOS"
+            ReferencedContainer = "container:EastAsianWidth.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
