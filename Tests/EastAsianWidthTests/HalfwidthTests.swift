@@ -21,4 +21,21 @@ class HalfwidthTests: XCTestCase {
     func testNonEastAsianWideCharacters() {
         AssertNotHalfwidth("あいうえお")
     }
+
+    func testHalfwidthKatakana() {
+        AssertHalfwidth("ｱｲｳｴｵ")
+        AssertHalfwidth("ｶｷｸｹｺ")
+        AssertHalfwidth("ｻｼｽｾｿ")
+        AssertHalfwidth("ﾀﾁﾂﾃﾄ")
+        AssertHalfwidth("ﾅﾆﾇﾈﾉ")
+        AssertHalfwidth("ﾊﾋﾌﾍﾎ")
+        AssertHalfwidth("ﾏﾐﾑﾒﾓ")
+        AssertHalfwidth("ﾔﾕﾖ")
+        AssertHalfwidth("ﾜｦﾝ")
+        AssertHalfwidth("ｶﾞｷﾞｸﾞｹﾞｺﾞ")
+        AssertHalfwidth("ｻﾞｼﾞｽﾞｾﾞｿﾞ")
+        AssertHalfwidth("ﾀﾞﾁﾞﾂﾞﾃﾞﾄﾞ")
+        AssertHalfwidth("ﾊﾞﾋﾞﾌﾞﾍﾞﾎﾞ")
+        AssertHalfwidth("ﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ")
+    }
 }
