@@ -1,5 +1,5 @@
 included:
-    - EastAsianWidth/
+    - Sources/
 
 line_length: 120
 file_length: 500

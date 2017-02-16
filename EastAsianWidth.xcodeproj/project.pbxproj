@@ -8,46 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		26D2E8B11E55ABC8005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
-		26D2E8B71E55ABD8005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
-		26D2E8B81E55ABD8005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
-		26D2E8B91E55ABD8005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
-		26D2E8BA1E55ABD8005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
-		26D2E8BB1E55ABD8005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
-		26D2E8BC1E55ABD8005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
-		26D2E8BD1E55ABD8005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
-		26D2E8BE1E55ABD8005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
-		26D2E8BF1E55ABD8005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
-		26D2E8C01E55AC7A005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
 		26D2E8CA1E55AD29005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A484C1E53360500584D99 /* EastAsianWidth.framework */; };
-		26D2E8D01E55AD6E005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
-		26D2E8D11E55AD6E005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
-		26D2E8D21E55AD6E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
-		26D2E8D31E55AD6E005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
-		26D2E8D41E55AD6E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
-		26D2E8D51E55AD6E005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
-		26D2E8D61E55AD6E005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
-		26D2E8D71E55AD6E005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
-		26D2E8D81E55AD6E005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
-		26D2E8D91E55AD6E005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
 		26D2E8E31E55ADD9005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A485A1E53368900584D99 /* EastAsianWidth.framework */; };
-		26D2E8F31E55AE1E005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
-		26D2E8F41E55AE1E005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
-		26D2E8F51E55AE1E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
-		26D2E8F61E55AE1E005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
-		26D2E8F71E55AE1E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
-		26D2E8F81E55AE1E005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
-		26D2E8F91E55AE1E005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
-		26D2E8FA1E55AE1E005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
-		26D2E8FB1E55AE1E005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
-		26D2E8FC1E55AE1E005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
+		26D2E8FE1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */; };
+		26D2E8FF1E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */; };
+		26D2E9001E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */; };
+		26D2E9011E55B1A8005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */; };
+		26D2E9161E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */; };
+		26D2E9171E55B2EE005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */; };
+		26D2E9181E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */; };
+		26D2E9191E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9051E55B2EA005D1C5D /* EastAsianNarrowTests.swift */; };
+		26D2E91A1E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9061E55B2EA005D1C5D /* EastAsianNeutralTests.swift */; };
+		26D2E91B1E55B2EE005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9071E55B2EA005D1C5D /* EastAsianWideTests.swift */; };
+		26D2E91C1E55B2EE005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */; };
+		26D2E91D1E55B2EE005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */; };
+		26D2E91E1E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */; };
+		26D2E91F1E55B2EE005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */; };
+		26D2E9201E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */; };
+		26D2E9211E55B2EE005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */; };
+		26D2E9221E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */; };
+		26D2E9231E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9051E55B2EA005D1C5D /* EastAsianNarrowTests.swift */; };
+		26D2E9241E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9061E55B2EA005D1C5D /* EastAsianNeutralTests.swift */; };
+		26D2E9251E55B2EE005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9071E55B2EA005D1C5D /* EastAsianWideTests.swift */; };
+		26D2E9261E55B2EE005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */; };
+		26D2E9271E55B2EE005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */; };
+		26D2E9281E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */; };
+		26D2E9291E55B2EF005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */; };
+		26D2E92A1E55B2EF005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */; };
+		26D2E92B1E55B2EF005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */; };
+		26D2E92C1E55B2EF005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */; };
+		26D2E92D1E55B2EF005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9051E55B2EA005D1C5D /* EastAsianNarrowTests.swift */; };
+		26D2E92E1E55B2EF005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9061E55B2EA005D1C5D /* EastAsianNeutralTests.swift */; };
+		26D2E92F1E55B2EF005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9071E55B2EA005D1C5D /* EastAsianWideTests.swift */; };
+		26D2E9301E55B2EF005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */; };
+		26D2E9311E55B2EF005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */; };
+		26D2E9321E55B2EF005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */; };
+		26D2E9331E55B2EF005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */; };
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48621E53369B00584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E85A486A1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
-		E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
-		E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
-		E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,15 +75,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianAmbiguousTests.swift; sourceTree = "<group>"; };
-		260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeCharacters.swift; sourceTree = "<group>"; };
-		260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianNeutralTests.swift; sourceTree = "<group>"; };
-		260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianHalfwidthTests.swift; sourceTree = "<group>"; };
-		260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianFullwidthTests.swift; sourceTree = "<group>"; };
-		260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianNarrowTests.swift; sourceTree = "<group>"; };
-		260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianWideTests.swift; sourceTree = "<group>"; };
-		260BD8CF1E5419840077AC55 /* FullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullwidthTests.swift; sourceTree = "<group>"; };
-		260BD8D11E541D590077AC55 /* HalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfwidthTests.swift; sourceTree = "<group>"; };
 		26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D2E8AE1E55ABC8005D1C5D /* EastAsianWidth_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_iOSTests.swift; sourceTree = "<group>"; };
 		26D2E8B01E55ABC8005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,14 +84,23 @@
 		26D2E8DE1E55ADD9005D1C5D /* EastAsianWidth-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D2E8E01E55ADD9005D1C5D /* EastAsianWidth_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_macOSTests.swift; sourceTree = "<group>"; };
 		26D2E8E21E55ADD9005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
+		26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianAmbiguousTests.swift; path = EastAsianWidthTests/EastAsianAmbiguousTests.swift; sourceTree = "<group>"; };
+		26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianFullwidthTests.swift; path = EastAsianWidthTests/EastAsianFullwidthTests.swift; sourceTree = "<group>"; };
+		26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianHalfwidthTests.swift; path = EastAsianWidthTests/EastAsianHalfwidthTests.swift; sourceTree = "<group>"; };
+		26D2E9051E55B2EA005D1C5D /* EastAsianNarrowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianNarrowTests.swift; path = EastAsianWidthTests/EastAsianNarrowTests.swift; sourceTree = "<group>"; };
+		26D2E9061E55B2EA005D1C5D /* EastAsianNeutralTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianNeutralTests.swift; path = EastAsianWidthTests/EastAsianNeutralTests.swift; sourceTree = "<group>"; };
+		26D2E9071E55B2EA005D1C5D /* EastAsianWideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastAsianWideTests.swift; path = EastAsianWidthTests/EastAsianWideTests.swift; sourceTree = "<group>"; };
+		26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EdgeCharacters.swift; path = EastAsianWidthTests/EdgeCharacters.swift; sourceTree = "<group>"; };
+		26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullwidthTests.swift; path = EastAsianWidthTests/FullwidthTests.swift; sourceTree = "<group>"; };
+		26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HalfwidthTests.swift; path = EastAsianWidthTests/HalfwidthTests.swift; sourceTree = "<group>"; };
+		26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestUtils.swift; path = EastAsianWidthTests/TestUtils.swift; sourceTree = "<group>"; };
 		E85A48291E53340800584D99 /* EastAsianWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EastAsianWidth.h; sourceTree = "<group>"; };
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A483E1E53355C00584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
-		E8C526741E5354A7000937E4 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 		E85A48131E53333900584D99 = {
 			isa = PBXGroup;
 			children = (
-				E85A48631E5336EA00584D99 /* EastAsianWidth */,
+				E85A48631E5336EA00584D99 /* Sources */,
 				E85A48281E5333F000584D99 /* Resources */,
 				E85A48771E534FBC00584D99 /* Tests */,
 				26D2E8AD1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */,
@@ -222,27 +222,27 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E85A48631E5336EA00584D99 /* EastAsianWidth */ = {
+		E85A48631E5336EA00584D99 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */,
+				26D2E8FD1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift */,
 			);
-			path = EastAsianWidth;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		E85A48771E534FBC00584D99 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E8C526741E5354A7000937E4 /* TestUtils.swift */,
-				260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */,
-				260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */,
-				260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */,
-				260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */,
-				260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */,
-				260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */,
-				260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */,
-				260BD8CF1E5419840077AC55 /* FullwidthTests.swift */,
-				260BD8D11E541D590077AC55 /* HalfwidthTests.swift */,
+				26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */,
+				26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */,
+				26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */,
+				26D2E9051E55B2EA005D1C5D /* EastAsianNarrowTests.swift */,
+				26D2E9061E55B2EA005D1C5D /* EastAsianNeutralTests.swift */,
+				26D2E9071E55B2EA005D1C5D /* EastAsianWideTests.swift */,
+				26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */,
+				26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */,
+				26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */,
+				26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -601,16 +601,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D2E8BE1E55ABD8005D1C5D /* FullwidthTests.swift in Sources */,
-				26D2E8BD1E55ABD8005D1C5D /* EastAsianWideTests.swift in Sources */,
-				26D2E8C01E55AC7A005D1C5D /* TestUtils.swift in Sources */,
-				26D2E8B81E55ABD8005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
-				26D2E8B91E55ABD8005D1C5D /* EastAsianNeutralTests.swift in Sources */,
-				26D2E8B71E55ABD8005D1C5D /* EdgeCharacters.swift in Sources */,
-				26D2E8BB1E55ABD8005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
-				26D2E8BA1E55ABD8005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
-				26D2E8BC1E55ABD8005D1C5D /* EastAsianNarrowTests.swift in Sources */,
-				26D2E8BF1E55ABD8005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E91A1E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */,
+				26D2E9181E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
+				26D2E91E1E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E91F1E55B2EE005D1C5D /* TestUtils.swift in Sources */,
+				26D2E9161E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
+				26D2E9191E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */,
+				26D2E91C1E55B2EE005D1C5D /* EdgeCharacters.swift in Sources */,
+				26D2E91D1E55B2EE005D1C5D /* FullwidthTests.swift in Sources */,
+				26D2E91B1E55B2EE005D1C5D /* EastAsianWideTests.swift in Sources */,
+				26D2E9171E55B2EE005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,16 +618,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D2E8D81E55AD6E005D1C5D /* FullwidthTests.swift in Sources */,
-				26D2E8D71E55AD6E005D1C5D /* EastAsianWideTests.swift in Sources */,
-				26D2E8D21E55AD6E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
-				26D2E8D31E55AD6E005D1C5D /* EastAsianNeutralTests.swift in Sources */,
-				26D2E8D11E55AD6E005D1C5D /* EdgeCharacters.swift in Sources */,
-				26D2E8D51E55AD6E005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
-				26D2E8D01E55AD6E005D1C5D /* TestUtils.swift in Sources */,
-				26D2E8D41E55AD6E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
-				26D2E8D61E55AD6E005D1C5D /* EastAsianNarrowTests.swift in Sources */,
-				26D2E8D91E55AD6E005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E9241E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */,
+				26D2E9221E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
+				26D2E9281E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E9291E55B2EF005D1C5D /* TestUtils.swift in Sources */,
+				26D2E9201E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
+				26D2E9231E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */,
+				26D2E9261E55B2EE005D1C5D /* EdgeCharacters.swift in Sources */,
+				26D2E9271E55B2EE005D1C5D /* FullwidthTests.swift in Sources */,
+				26D2E9251E55B2EE005D1C5D /* EastAsianWideTests.swift in Sources */,
+				26D2E9211E55B2EE005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,16 +635,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D2E8FB1E55AE1E005D1C5D /* FullwidthTests.swift in Sources */,
-				26D2E8FA1E55AE1E005D1C5D /* EastAsianWideTests.swift in Sources */,
-				26D2E8F51E55AE1E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
-				26D2E8F61E55AE1E005D1C5D /* EastAsianNeutralTests.swift in Sources */,
-				26D2E8F41E55AE1E005D1C5D /* EdgeCharacters.swift in Sources */,
-				26D2E8F81E55AE1E005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
-				26D2E8F31E55AE1E005D1C5D /* TestUtils.swift in Sources */,
-				26D2E8F71E55AE1E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
-				26D2E8F91E55AE1E005D1C5D /* EastAsianNarrowTests.swift in Sources */,
-				26D2E8FC1E55AE1E005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E92E1E55B2EF005D1C5D /* EastAsianNeutralTests.swift in Sources */,
+				26D2E92C1E55B2EF005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
+				26D2E9321E55B2EF005D1C5D /* HalfwidthTests.swift in Sources */,
+				26D2E9331E55B2EF005D1C5D /* TestUtils.swift in Sources */,
+				26D2E92A1E55B2EF005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
+				26D2E92D1E55B2EF005D1C5D /* EastAsianNarrowTests.swift in Sources */,
+				26D2E9301E55B2EF005D1C5D /* EdgeCharacters.swift in Sources */,
+				26D2E9311E55B2EF005D1C5D /* FullwidthTests.swift in Sources */,
+				26D2E92F1E55B2EF005D1C5D /* EastAsianWideTests.swift in Sources */,
+				26D2E92B1E55B2EF005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,7 +652,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85A486A1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				26D2E8FE1E55B1A4005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				26D2E8FF1E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				26D2E9001E55B1A7005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,7 +676,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */,
+				26D2E9011E55B1A8005D1C5D /* UnicodeScalar+EastAsianWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +704,7 @@
 		26D2E8B51E55ABC8005D1C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -716,6 +717,7 @@
 		26D2E8B61E55ABC8005D1C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -728,6 +730,7 @@
 		26D2E8CE1E55AD29005D1C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -742,6 +745,7 @@
 		26D2E8CF1E55AD29005D1C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -756,6 +760,7 @@
 		26D2E8E71E55ADD9005D1C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
@@ -772,6 +777,7 @@
 		26D2E8E81E55ADD9005D1C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G73SPYZ3Q7;
