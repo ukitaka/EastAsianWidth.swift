@@ -2,8 +2,9 @@ branches:
   only: master
 matrix:
   include:
-    - language: generic
+    - os: osx
       osx_image: xcode8.2
+      language: generic
       script:
         - swift build
         - swift test
