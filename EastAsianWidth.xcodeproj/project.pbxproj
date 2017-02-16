@@ -18,6 +18,17 @@
 		26D2E8BE1E55ABD8005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
 		26D2E8BF1E55ABD8005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
 		26D2E8C01E55AC7A005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
+		26D2E8CA1E55AD29005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A484C1E53360500584D99 /* EastAsianWidth.framework */; };
+		26D2E8D01E55AD6E005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
+		26D2E8D11E55AD6E005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
+		26D2E8D21E55AD6E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
+		26D2E8D31E55AD6E005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
+		26D2E8D41E55AD6E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
+		26D2E8D51E55AD6E005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
+		26D2E8D61E55AD6E005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
+		26D2E8D71E55AD6E005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
+		26D2E8D81E55AD6E005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
+		26D2E8D91E55AD6E005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +47,13 @@
 			remoteGlobalIDString = E85A482F1E53347300584D99;
 			remoteInfo = "EastAsianWidth-iOS";
 		};
+		26D2E8CB1E55AD29005D1C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85A48141E53333900584D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85A484B1E53360500584D99;
+			remoteInfo = "EastAsianWidth-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +69,9 @@
 		26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D2E8AE1E55ABC8005D1C5D /* EastAsianWidth_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_iOSTests.swift; sourceTree = "<group>"; };
 		26D2E8B01E55ABC8005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D2E8C51E55AD29005D1C5D /* EastAsianWidth-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D2E8C71E55AD29005D1C5D /* EastAsianWidth_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_tvOSTests.swift; sourceTree = "<group>"; };
+		26D2E8C91E55AD29005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48291E53340800584D99 /* EastAsianWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EastAsianWidth.h; sourceTree = "<group>"; };
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +88,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D2E8B11E55ABC8005D1C5D /* EastAsianWidth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D2E8C21E55AD29005D1C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D2E8CA1E55AD29005D1C5D /* EastAsianWidth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +139,15 @@
 			path = "EastAsianWidth-iOSTests";
 			sourceTree = "<group>";
 		};
+		26D2E8C61E55AD29005D1C5D /* EastAsianWidth-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D2E8C71E55AD29005D1C5D /* EastAsianWidth_tvOSTests.swift */,
+				26D2E8C91E55AD29005D1C5D /* Info.plist */,
+			);
+			path = "EastAsianWidth-tvOSTests";
+			sourceTree = "<group>";
+		};
 		E85A48131E53333900584D99 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +155,7 @@
 				E85A48281E5333F000584D99 /* Resources */,
 				E85A48771E534FBC00584D99 /* Tests */,
 				26D2E8AD1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */,
+				26D2E8C61E55AD29005D1C5D /* EastAsianWidth-tvOSTests */,
 				E85A481E1E53333900584D99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +168,7 @@
 				E85A484C1E53360500584D99 /* EastAsianWidth.framework */,
 				E85A485A1E53368900584D99 /* EastAsianWidth.framework */,
 				26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */,
+				26D2E8C51E55AD29005D1C5D /* EastAsianWidth-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,6 +263,24 @@
 			productReference = 26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		26D2E8C41E55AD29005D1C5D /* EastAsianWidth-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D2E8CD1E55AD29005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-tvOSTests" */;
+			buildPhases = (
+				26D2E8C11E55AD29005D1C5D /* Sources */,
+				26D2E8C21E55AD29005D1C5D /* Frameworks */,
+				26D2E8C31E55AD29005D1C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D2E8CC1E55AD29005D1C5D /* PBXTargetDependency */,
+			);
+			name = "EastAsianWidth-tvOSTests";
+			productName = "EastAsianWidth-tvOSTests";
+			productReference = 26D2E8C51E55AD29005D1C5D /* EastAsianWidth-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E85A482F1E53347300584D99 /* EastAsianWidth-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E85A48351E53347300584D99 /* Build configuration list for PBXNativeTarget "EastAsianWidth-iOS" */;
@@ -314,6 +372,11 @@
 						DevelopmentTeam = G73SPYZ3Q7;
 						ProvisioningStyle = Automatic;
 					};
+					26D2E8C41E55AD29005D1C5D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = G73SPYZ3Q7;
+						ProvisioningStyle = Automatic;
+					};
 					E85A482F1E53347300584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
@@ -353,12 +416,20 @@
 				E85A484B1E53360500584D99 /* EastAsianWidth-tvOS */,
 				E85A48591E53368900584D99 /* EastAsianWidth-macOS */,
 				26D2E8AB1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */,
+				26D2E8C41E55AD29005D1C5D /* EastAsianWidth-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26D2E8AA1E55ABC8005D1C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D2E8C31E55AD29005D1C5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,6 +543,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26D2E8C11E55AD29005D1C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D2E8D81E55AD6E005D1C5D /* FullwidthTests.swift in Sources */,
+				26D2E8D71E55AD6E005D1C5D /* EastAsianWideTests.swift in Sources */,
+				26D2E8D21E55AD6E005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
+				26D2E8D31E55AD6E005D1C5D /* EastAsianNeutralTests.swift in Sources */,
+				26D2E8D11E55AD6E005D1C5D /* EdgeCharacters.swift in Sources */,
+				26D2E8D51E55AD6E005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
+				26D2E8D01E55AD6E005D1C5D /* TestUtils.swift in Sources */,
+				26D2E8D41E55AD6E005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
+				26D2E8D61E55AD6E005D1C5D /* EastAsianNarrowTests.swift in Sources */,
+				26D2E8D91E55AD6E005D1C5D /* HalfwidthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E85A482B1E53347300584D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,6 +600,11 @@
 			target = E85A482F1E53347300584D99 /* EastAsianWidth-iOS */;
 			targetProxy = 26D2E8B21E55ABC8005D1C5D /* PBXContainerItemProxy */;
 		};
+		26D2E8CC1E55AD29005D1C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85A484B1E53360500584D99 /* EastAsianWidth-tvOS */;
+			targetProxy = 26D2E8CB1E55AD29005D1C5D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -536,6 +629,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.waft.EastAsianWidth-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		26D2E8CE1E55AD29005D1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G73SPYZ3Q7;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waft.EastAsianWidth-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		26D2E8CF1E55AD29005D1C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G73SPYZ3Q7;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waft.EastAsianWidth-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -834,6 +955,14 @@
 			buildConfigurations = (
 				26D2E8B51E55ABC8005D1C5D /* Debug */,
 				26D2E8B61E55ABC8005D1C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D2E8CD1E55AD29005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D2E8CE1E55AD29005D1C5D /* Debug */,
+				26D2E8CF1E55AD29005D1C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
