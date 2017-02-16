@@ -1,7 +1,10 @@
 # EastAsianWidth
 
+
 [![Build Status](https://travis-ci.org/ukitaka/EastAsianWidth.swift.svg?branch=master)](https://travis-ci.org/ukitaka/EastAsianWidth.swift)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 
 Extension of `UnicodeScalar` to deal with East Asian Width.
 The most generally use case is to classify unicode scalar value as **Fullwidth** (全角) or **Halfwidth** (半角).
