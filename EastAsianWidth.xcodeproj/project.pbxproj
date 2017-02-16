@@ -1088,6 +1088,7 @@
 				26D2E8B61E55ABC8005D1C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26D2E8CD1E55AD29005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1096,6 +1097,7 @@
 				26D2E8CF1E55AD29005D1C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26D2E8E61E55ADD9005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1104,6 +1106,7 @@
 				26D2E8E81E55ADD9005D1C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E85A48171E53333900584D99 /* Build configuration list for PBXProject "EastAsianWidth" */ = {
 			isa = XCConfigurationList;
