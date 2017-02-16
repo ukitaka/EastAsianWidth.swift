@@ -1,0 +1,11 @@
+branches:
+  only: master
+matrix:
+  include:
+    - language: generic
+      osx_image: xcode8.2
+      script:
+        - swift build
+        - swift test
+      env:
+        - JOB=SWIFTPM_DARWIN
