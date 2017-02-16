@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		260BD8C21E53FB780077AC55 /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
-		260BD8C41E5406D80077AC55 /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
-		260BD8C61E540AF80077AC55 /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
-		260BD8C81E54164E0077AC55 /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
-		260BD8CA1E5416CD0077AC55 /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
-		260BD8CC1E5417530077AC55 /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
-		260BD8CE1E54180F0077AC55 /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
-		260BD8D01E5419840077AC55 /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
-		260BD8D21E541D590077AC55 /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
+		26D2E8B11E55ABC8005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
+		26D2E8B71E55ABD8005D1C5D /* EdgeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C31E5406D80077AC55 /* EdgeCharacters.swift */; };
+		26D2E8B81E55ABD8005D1C5D /* EastAsianAmbiguousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C11E53FB780077AC55 /* EastAsianAmbiguousTests.swift */; };
+		26D2E8B91E55ABD8005D1C5D /* EastAsianNeutralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C51E540AF80077AC55 /* EastAsianNeutralTests.swift */; };
+		26D2E8BA1E55ABD8005D1C5D /* EastAsianHalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C71E54164E0077AC55 /* EastAsianHalfwidthTests.swift */; };
+		26D2E8BB1E55ABD8005D1C5D /* EastAsianFullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8C91E5416CD0077AC55 /* EastAsianFullwidthTests.swift */; };
+		26D2E8BC1E55ABD8005D1C5D /* EastAsianNarrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CB1E5417530077AC55 /* EastAsianNarrowTests.swift */; };
+		26D2E8BD1E55ABD8005D1C5D /* EastAsianWideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */; };
+		26D2E8BE1E55ABD8005D1C5D /* FullwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8CF1E5419840077AC55 /* FullwidthTests.swift */; };
+		26D2E8BF1E55ABD8005D1C5D /* HalfwidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260BD8D11E541D590077AC55 /* HalfwidthTests.swift */; };
+		26D2E8C01E55AC7A005D1C5D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
 		E85A48381E53349100584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48461E53357000584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85A48541E53365500584D99 /* EastAsianWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = E85A48291E53340800584D99 /* EastAsianWidth.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,12 +26,10 @@
 		E85A486B1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486C1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
 		E85A486D1E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */; };
-		E85A487B1E534FBC00584D99 /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
-		E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C526741E5354A7000937E4 /* TestUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E85A487C1E534FBC00584D99 /* PBXContainerItemProxy */ = {
+		26D2E8B21E55ABC8005D1C5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E85A48141E53333900584D99 /* Project object */;
 			proxyType = 1;
@@ -48,6 +48,9 @@
 		260BD8CD1E54180F0077AC55 /* EastAsianWideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastAsianWideTests.swift; sourceTree = "<group>"; };
 		260BD8CF1E5419840077AC55 /* FullwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullwidthTests.swift; sourceTree = "<group>"; };
 		260BD8D11E541D590077AC55 /* HalfwidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfwidthTests.swift; sourceTree = "<group>"; };
+		26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D2E8AE1E55ABC8005D1C5D /* EastAsianWidth_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_iOSTests.swift; sourceTree = "<group>"; };
+		26D2E8B01E55ABC8005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48291E53340800584D99 /* EastAsianWidth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EastAsianWidth.h; sourceTree = "<group>"; };
 		E85A482A1E53340800584D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85A48301E53347300584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,11 +58,18 @@
 		E85A484C1E53360500584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A485A1E53368900584D99 /* EastAsianWidth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EastAsianWidth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85A48691E5337EC00584D99 /* UnicodeScalar+EastAsianWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+EastAsianWidth.swift"; sourceTree = "<group>"; };
-		E85A48761E534FBC00584D99 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C526741E5354A7000937E4 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		26D2E8A91E55ABC8005D1C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D2E8B11E55ABC8005D1C5D /* EastAsianWidth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E85A482C1E53347300584D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,23 +98,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E85A48731E534FBC00584D99 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E85A487B1E534FBC00584D99 /* EastAsianWidth.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D2E8AD1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D2E8AE1E55ABC8005D1C5D /* EastAsianWidth_iOSTests.swift */,
+				26D2E8B01E55ABC8005D1C5D /* Info.plist */,
+			);
+			path = "EastAsianWidth-iOSTests";
+			sourceTree = "<group>";
+		};
 		E85A48131E53333900584D99 = {
 			isa = PBXGroup;
 			children = (
 				E85A48631E5336EA00584D99 /* EastAsianWidth */,
 				E85A48281E5333F000584D99 /* Resources */,
 				E85A48771E534FBC00584D99 /* Tests */,
+				26D2E8AD1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */,
 				E85A481E1E53333900584D99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,7 +128,7 @@
 				E85A483E1E53355C00584D99 /* EastAsianWidth.framework */,
 				E85A484C1E53360500584D99 /* EastAsianWidth.framework */,
 				E85A485A1E53368900584D99 /* EastAsianWidth.framework */,
-				E85A48761E534FBC00584D99 /* Tests.xctest */,
+				26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +205,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		26D2E8AB1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D2E8B41E55ABC8005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-iOSTests" */;
+			buildPhases = (
+				26D2E8A81E55ABC8005D1C5D /* Sources */,
+				26D2E8A91E55ABC8005D1C5D /* Frameworks */,
+				26D2E8AA1E55ABC8005D1C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D2E8B31E55ABC8005D1C5D /* PBXTargetDependency */,
+			);
+			name = "EastAsianWidth-iOSTests";
+			productName = "EastAsianWidth-iOSTests";
+			productReference = 26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E85A482F1E53347300584D99 /* EastAsianWidth-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E85A48351E53347300584D99 /* Build configuration list for PBXNativeTarget "EastAsianWidth-iOS" */;
@@ -269,24 +299,6 @@
 			productReference = E85A485A1E53368900584D99 /* EastAsianWidth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E85A48751E534FBC00584D99 /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E85A487E1E534FBC00584D99 /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				E85A48721E534FBC00584D99 /* Sources */,
-				E85A48731E534FBC00584D99 /* Frameworks */,
-				E85A48741E534FBC00584D99 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E85A487D1E534FBC00584D99 /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = Tests;
-			productReference = E85A48761E534FBC00584D99 /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -297,6 +309,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = waft;
 				TargetAttributes = {
+					26D2E8AB1E55ABC8005D1C5D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = G73SPYZ3Q7;
+						ProvisioningStyle = Automatic;
+					};
 					E85A482F1E53347300584D99 = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 0820;
@@ -317,10 +334,6 @@
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					E85A48751E534FBC00584D99 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = E85A48171E53333900584D99 /* Build configuration list for PBXProject "EastAsianWidth" */;
@@ -339,12 +352,19 @@
 				E85A483D1E53355C00584D99 /* EastAsianWidth-watchOS */,
 				E85A484B1E53360500584D99 /* EastAsianWidth-tvOS */,
 				E85A48591E53368900584D99 /* EastAsianWidth-macOS */,
-				E85A48751E534FBC00584D99 /* Tests */,
+				26D2E8AB1E55ABC8005D1C5D /* EastAsianWidth-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		26D2E8AA1E55ABC8005D1C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E85A482E1E53347300584D99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,13 +387,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E85A48581E53368900584D99 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E85A48741E534FBC00584D99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,6 +455,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		26D2E8A81E55ABC8005D1C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D2E8BE1E55ABD8005D1C5D /* FullwidthTests.swift in Sources */,
+				26D2E8BD1E55ABD8005D1C5D /* EastAsianWideTests.swift in Sources */,
+				26D2E8C01E55AC7A005D1C5D /* TestUtils.swift in Sources */,
+				26D2E8B81E55ABD8005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
+				26D2E8B91E55ABD8005D1C5D /* EastAsianNeutralTests.swift in Sources */,
+				26D2E8B71E55ABD8005D1C5D /* EdgeCharacters.swift in Sources */,
+				26D2E8BB1E55ABD8005D1C5D /* EastAsianFullwidthTests.swift in Sources */,
+				26D2E8BA1E55ABD8005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
+				26D2E8BC1E55ABD8005D1C5D /* EastAsianNarrowTests.swift in Sources */,
+				26D2E8BF1E55ABD8005D1C5D /* HalfwidthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E85A482B1E53347300584D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,34 +504,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E85A48721E534FBC00584D99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				260BD8D01E5419840077AC55 /* FullwidthTests.swift in Sources */,
-				260BD8CE1E54180F0077AC55 /* EastAsianWideTests.swift in Sources */,
-				260BD8C41E5406D80077AC55 /* EdgeCharacters.swift in Sources */,
-				260BD8C61E540AF80077AC55 /* EastAsianNeutralTests.swift in Sources */,
-				260BD8C21E53FB780077AC55 /* EastAsianAmbiguousTests.swift in Sources */,
-				260BD8CA1E5416CD0077AC55 /* EastAsianFullwidthTests.swift in Sources */,
-				E8C526751E5354A7000937E4 /* TestUtils.swift in Sources */,
-				260BD8C81E54164E0077AC55 /* EastAsianHalfwidthTests.swift in Sources */,
-				260BD8CC1E5417530077AC55 /* EastAsianNarrowTests.swift in Sources */,
-				260BD8D21E541D590077AC55 /* HalfwidthTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E85A487D1E534FBC00584D99 /* PBXTargetDependency */ = {
+		26D2E8B31E55ABC8005D1C5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E85A482F1E53347300584D99 /* EastAsianWidth-iOS */;
-			targetProxy = E85A487C1E534FBC00584D99 /* PBXContainerItemProxy */;
+			targetProxy = 26D2E8B21E55ABC8005D1C5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		26D2E8B51E55ABC8005D1C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G73SPYZ3Q7;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waft.EastAsianWidth-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26D2E8B61E55ABC8005D1C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G73SPYZ3Q7;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.waft.EastAsianWidth-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		E85A48231E53333900584D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -789,33 +826,17 @@
 			};
 			name = Release;
 		};
-		E85A487F1E534FBC00584D99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.waft.EastAsianWidthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		E85A48801E534FBC00584D99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.waft.EastAsianWidthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26D2E8B41E55ABC8005D1C5D /* Build configuration list for PBXNativeTarget "EastAsianWidth-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D2E8B51E55ABC8005D1C5D /* Debug */,
+				26D2E8B61E55ABC8005D1C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E85A48171E53333900584D99 /* Build configuration list for PBXProject "EastAsianWidth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -857,15 +878,6 @@
 			buildConfigurations = (
 				E85A48601E53368900584D99 /* Debug */,
 				E85A48611E53368900584D99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E85A487E1E534FBC00584D99 /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E85A487F1E534FBC00584D99 /* Debug */,
-				E85A48801E534FBC00584D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
