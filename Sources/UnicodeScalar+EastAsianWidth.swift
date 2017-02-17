@@ -208,7 +208,7 @@ public extension UnicodeScalar {
     /// elsewhere in the Unicode Standard that are implicitly narrow but unmarked.
     ///
     /// See: http://unicode.org/reports/tr11/#ED2
-    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L209-L215
+    ///      https://github.com/audreyt/Unicode-EastAsianWidth/blob/master/lib/Unicode/EastAsianWidth.pm#L201-L207
     public var isEastAsianFullwidth: Bool {
         switch self.value {
         case 0x3000...0x3000: return true
