@@ -107,6 +107,22 @@ You can configure them with parameters.
 string.unicodeScalars.countByEastAsianWidth(halfwidthAs: 2, fullwidthAs: 4, markEastAsianAmbiguousAsFullwidth: false)
 ```
 
+### Why not support `CharacterSet` ?
+
+Main reason is technical problems of `CharacterSet`.
+We cannot create union of `CharacterSet` that has different byte length characters. 
+
+```swift
+let c1 = CharacterSet(charactersIn: "\u{AAAA}")
+let c2 = CharacterSet(charactersIn: "\u{AAAAA}")
+
+c2.contains("\u{AAAAA}") // true
+c1.union(c2).contains("\u{AAAAA}") // false 😫
+```
+
+But some `East Asian Width` definitions include different byte length characters. 
+So I cannot support `CharacterSet`…
+
 ## Requirements
 
 `EastAsianWidth.swift` requires / supports the following environments:
