@@ -11,13 +11,12 @@ import Foundation
 public extension String.UnicodeScalarView {
     public func countByEastAsianWidth(halfwidthAs: Int = 1,
                                       fullwidthAs: Int = 2,
-                                      markEastAsianAmbiguousAsFullwidth: Bool = true) -> Int {
+                                      markEastAsianAmbiguousAsFullwidth: Bool = false) -> Int {
         func accumulate(count: Int, unicodeScalar: UnicodeScalar) -> Int {
             if markEastAsianAmbiguousAsFullwidth {
                 return count + (unicodeScalar.isFullwidthOrAmbiguous ? fullwidthAs : halfwidthAs)
-            } else {
-                return count + (unicodeScalar.isFullwidth ? fullwidthAs : halfwidthAs)
             }
+            return count + (unicodeScalar.isFullwidth ? fullwidthAs : halfwidthAs)
         }
 
         return reduce(0, accumulate)
