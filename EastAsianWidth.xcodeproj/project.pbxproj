@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		267587EA1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587E91E56B16000DA5B40 /* CountByEastAsianWidthTests.swift */; };
-		267587EB1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587E91E56B16000DA5B40 /* CountByEastAsianWidthTests.swift */; };
-		267587EC1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587E91E56B16000DA5B40 /* CountByEastAsianWidthTests.swift */; };
+		267587EE1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587ED1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift */; };
+		267587EF1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587ED1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift */; };
+		267587F01E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267587ED1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift */; };
 		26D2E8B11E55ABC8005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A48301E53347300584D99 /* EastAsianWidth.framework */; };
 		26D2E8CA1E55AD29005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A484C1E53360500584D99 /* EastAsianWidth.framework */; };
 		26D2E8E31E55ADD9005D1C5D /* EastAsianWidth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A485A1E53368900584D99 /* EastAsianWidth.framework */; };
@@ -86,7 +86,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		267587E91E56B16000DA5B40 /* CountByEastAsianWidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountByEastAsianWidthTests.swift; sourceTree = "<group>"; };
+		267587ED1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountByEastAsianWidthTests.swift; path = EastAsianWidthTests/CountByEastAsianWidthTests.swift; sourceTree = "<group>"; };
 		26D2E8AC1E55ABC8005D1C5D /* EastAsianWidth-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EastAsianWidth-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D2E8AE1E55ABC8005D1C5D /* EastAsianWidth_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastAsianWidth_iOSTests.swift; sourceTree = "<group>"; };
 		26D2E8B01E55ABC8005D1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -249,6 +249,7 @@
 		E85A48771E534FBC00584D99 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				267587ED1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift */,
 				26D2E9021E55B2EA005D1C5D /* EastAsianAmbiguousTests.swift */,
 				26D2E9031E55B2EA005D1C5D /* EastAsianFullwidthTests.swift */,
 				26D2E9041E55B2EA005D1C5D /* EastAsianHalfwidthTests.swift */,
@@ -258,7 +259,6 @@
 				26D2E9081E55B2EA005D1C5D /* EdgeCharacters.swift */,
 				26D2E9091E55B2EA005D1C5D /* FullwidthTests.swift */,
 				26D2E90A1E55B2EA005D1C5D /* HalfwidthTests.swift */,
-				267587E91E56B16000DA5B40 /* CountByEastAsianWidthTests.swift */,
 				26D2E90B1E55B2EA005D1C5D /* TestUtils.swift */,
 			);
 			path = Tests;
@@ -621,7 +621,7 @@
 				26D2E91A1E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */,
 				26D2E9181E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
 				26D2E91E1E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */,
-				267587EA1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
+				267587EE1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
 				26D2E91F1E55B2EE005D1C5D /* TestUtils.swift in Sources */,
 				26D2E9161E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
 				26D2E9191E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */,
@@ -639,7 +639,7 @@
 				26D2E9241E55B2EE005D1C5D /* EastAsianNeutralTests.swift in Sources */,
 				26D2E9221E55B2EE005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
 				26D2E9281E55B2EE005D1C5D /* HalfwidthTests.swift in Sources */,
-				267587EB1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
+				267587EF1E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
 				26D2E9291E55B2EF005D1C5D /* TestUtils.swift in Sources */,
 				26D2E9201E55B2EE005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
 				26D2E9231E55B2EE005D1C5D /* EastAsianNarrowTests.swift in Sources */,
@@ -657,7 +657,7 @@
 				26D2E92E1E55B2EF005D1C5D /* EastAsianNeutralTests.swift in Sources */,
 				26D2E92C1E55B2EF005D1C5D /* EastAsianHalfwidthTests.swift in Sources */,
 				26D2E9321E55B2EF005D1C5D /* HalfwidthTests.swift in Sources */,
-				267587EC1E56B16000DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
+				267587F01E56BF5600DA5B40 /* CountByEastAsianWidthTests.swift in Sources */,
 				26D2E9331E55B2EF005D1C5D /* TestUtils.swift in Sources */,
 				26D2E92A1E55B2EF005D1C5D /* EastAsianAmbiguousTests.swift in Sources */,
 				26D2E92D1E55B2EF005D1C5D /* EastAsianNarrowTests.swift in Sources */,
