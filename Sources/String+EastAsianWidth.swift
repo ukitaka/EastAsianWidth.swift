@@ -46,6 +46,6 @@ public extension String {
     }
 
     public var containsHalfwidthCharacters: Bool {
-        return unicodeScalars.contains { $0.isEastAsianAmbiguous }
+        return unicodeScalars.contains { $0.isHalfwidth }
     }
 }
