@@ -18,8 +18,24 @@ class HalfwidthTests: XCTestCase {
         EastAsianAmbiguousEdgeUnicodeScalar.forEach(AssertHalfwidthOrAmbiguous)
     }
 
-    func testNonEastAsianWideCharacters() {
+    func testNonHalfwidthCharacters() {
         AssertNotHalfwidth("あいうえお")
+    }
+
+    func testContainsHalfwidth() {
+        XCTAssertFalse("¡".containsHalfwidthCharacters)
+        XCTAssertTrue("ABC".containsHalfwidthCharacters)
+        XCTAssertFalse("ＡＢＣ".containsHalfwidthCharacters)
+        XCTAssertFalse("こんにちわ".containsHalfwidthCharacters)
+        XCTAssertFalse("你好".containsHalfwidthCharacters)
+        XCTAssertFalse("안녕하세요".containsHalfwidthCharacters)
+
+        XCTAssertTrue("¡".containsHalfwidthOrAmbiguousCharacters)
+        XCTAssertTrue("ABC".containsHalfwidthOrAmbiguousCharacters)
+        XCTAssertFalse("ＡＢＣ".containsHalfwidthOrAmbiguousCharacters)
+        XCTAssertFalse("こんにちわ".containsHalfwidthOrAmbiguousCharacters)
+        XCTAssertFalse("你好".containsHalfwidthOrAmbiguousCharacters)
+        XCTAssertFalse("안녕하세요".containsHalfwidthOrAmbiguousCharacters)
     }
 
     func testHalfwidthKatakana() {
