@@ -23,6 +23,8 @@ class EastAsianFullwidthTests: XCTestCase {
 
     func testContainsAsianFullwidth() {
         XCTAssertTrue("　".containsEastAsianFullwidthCharacters) // Fullwidth space
+        XCTAssertFalse(" ".containsEastAsianFullwidthCharacters) // Halfwidth space
         XCTAssertTrue("こんにちわ　世界".containsEastAsianFullwidthCharacters)
+        XCTAssertFalse("こんにちわ 世界".containsEastAsianFullwidthCharacters)
     }
 }
