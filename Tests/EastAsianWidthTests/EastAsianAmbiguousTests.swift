@@ -20,4 +20,9 @@ class EastAsianAmbiguousTests: XCTestCase {
         AssertNotEastAsianAmbiguous("안녕하세요")
         AssertNotEastAsianAmbiguous("你好")
     }
+
+    func testContainsEastAsianAmbiguous() {
+        XCTAssertTrue("¡".containsEastAsianAmbiguousCharacters) // Not `i`, but `¡`.
+        XCTAssertFalse("Hello".containsEastAsianAmbiguousCharacters)
+    }
 }
