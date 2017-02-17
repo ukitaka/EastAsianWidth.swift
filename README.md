@@ -3,7 +3,12 @@
 
 [![Build Status](https://travis-ci.org/ukitaka/EastAsianWidth.swift.svg?branch=master)](https://travis-ci.org/ukitaka/EastAsianWidth.swift)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![CocoaPods](https://img.shields.io/cocoapods/v/EastAsianWidth.svg)]()
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager) 
+
+
 
 
 Extension of Swift String API to deal with East Asian Width.
