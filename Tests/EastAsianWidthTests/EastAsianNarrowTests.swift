@@ -19,4 +19,10 @@ class EastAsianNarrowTests: XCTestCase {
         AssertNotEastAsianNarrow("안녕하세요")
         AssertNotEastAsianNarrow("你好")
     }
+
+    func testContainsEastAsianNarrow() {
+        XCTAssertTrue("!?".containsEastAsianNarrowCharacters)
+        XCTAssertFalse("！？".containsEastAsianNarrowCharacters)
+        XCTAssertFalse("あいうえお".containsEastAsianNarrowCharacters)
+    }
 }
