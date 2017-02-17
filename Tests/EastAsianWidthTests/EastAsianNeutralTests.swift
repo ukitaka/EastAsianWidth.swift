@@ -20,4 +20,11 @@ class EastAsianNeutralTests: XCTestCase {
         AssertNotEastAsianNeutral("안녕하세요")
         AssertNotEastAsianNeutral("你好")
     }
+
+    func testContainsEastAsianNeutral() {
+        XCTAssertTrue("ÿ".containsEastAsianNeutralCharacters)
+        XCTAssertFalse("ABC".containsEastAsianNeutralCharacters)
+        XCTAssertFalse("ＡＢＣ".containsEastAsianNeutralCharacters)
+        XCTAssertFalse("あいうえお".containsEastAsianNeutralCharacters)
+    }
 }
