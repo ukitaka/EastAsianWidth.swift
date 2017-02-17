@@ -17,4 +17,12 @@ class EastAsianWideTests: XCTestCase {
     func testNonEastAsianWideCharacters() {
         AssertNotEastAsianWide("Hello")
     }
+
+    func testContainsEastAsianWide() {
+        XCTAssertFalse("ABC".containsEastAsianWideCharacters)
+        XCTAssertFalse("ＡＢＣ".containsEastAsianWideCharacters)
+        XCTAssertTrue("こんにちわ".containsEastAsianWideCharacters)
+        XCTAssertTrue("你好".containsEastAsianWideCharacters)
+        XCTAssertTrue("안녕하세요".containsEastAsianWideCharacters)
+    }
 }
