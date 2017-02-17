@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "EastAsianWidth"
   s.version      = "1.0.0"
-  s.summary      = "Extension of `UnicodeScalar` to deal with East Asian Width"
+  s.summary      = "Extension of Swift String API to deal with East Asian Width"
 
   s.description  = <<-DESC
-  Extension of `UnicodeScalar` to deal with East Asian Width.
+  Extension of Swift String API to deal with East Asian Width.
   The most generally use case is to classify unicode scalar value as **Fullwidth** (全角) or **Halfwidth** (半角).
   East Asian Width is specified as Unicode® Standard Annex #11.
   see: http://www.unicode.org/unicode/reports/tr11/
