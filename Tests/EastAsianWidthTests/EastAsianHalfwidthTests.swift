@@ -20,4 +20,9 @@ class EastAsianHalfwidthTests: XCTestCase {
         AssertNotEastAsianHalfwidth("안녕하세요")
         AssertNotEastAsianHalfwidth("你好")
     }
+
+    func testContainsEastAsianHalfwidth() {
+        XCTAssertTrue("₩".containsEastAsianHalfwidthCharacters)
+        XCTAssertTrue("100 ₩".containsEastAsianHalfwidthCharacters)
+    }
 }
