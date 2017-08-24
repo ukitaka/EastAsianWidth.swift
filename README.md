@@ -132,7 +132,7 @@ So I cannot support `CharacterSet`…
 
 `EastAsianWidth.swift` requires / supports the following environments:
 
-+ Swift 3.1 / Xcode 8.3 or Swift 3.0 / Xcode 8.2
++ Swift 4 / Xcode9
 + OS X 10.10 or later
 + iOS 9.0 or later
 + tvOS 9.0 or later
