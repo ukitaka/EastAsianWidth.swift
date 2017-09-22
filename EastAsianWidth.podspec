@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "EastAsianWidth"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Extension of Swift String API to deal with East Asian Width"
 
   s.description  = <<-DESC
